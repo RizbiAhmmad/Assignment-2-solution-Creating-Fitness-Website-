@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.cdnfonts.com/css/miami');
+
+.miami{
+    font-family: 'Miami', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+}
+
 body{
     font-family: "Inter", sans-serif; 
+    
 }
 
 /*Default style */
 *{
-    margin: 0, auto;
+    margin: 0px;
+    padding: 0px;
 }
 .container{
-    margin-top: 55px;
     width: 1060px auto;
     height: 46px;
     padding: 4px;
@@ -27,12 +36,14 @@ h3{
 p{
     font-size: 18px;
     font-weight: 400; 
+    color: white;
 }
 .span{
     color: rgb(230, 83, 60);
 }
 
 /* Nav Bar */
+
 .nav-bar{
     display: flex;
     justify-content: space-between;
@@ -52,10 +63,94 @@ p{
 
 }
 p .span{
-
+    width: 92px;
     height: 38px;
     padding: 8px 20px 8px 20px;
     border-radius: 46px;
     background: rgb(230, 83, 60);
     color: rgb(255, 255, 255);
 }
+
+header{
+    max-width: 1440px auto;
+    max-height: 715px auto;
+    border: 1px solid rgb(5, 252, 5);
+    background: linear-gradient(180deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.8) 100%);
+
+    /* background: linear-gradient(180deg, rgba(0,0,0,.7), rgba(0,0,0,.7), rgba(0,0,0,.7), rgba(0,0,0,1) 100%); */
+}
+
+/* banner section style */
+.banner{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .banner-container{
+    width: 520px;
+    height: 540px;
+    margin-left: 50px;
+    margin-top: 80px;
+    /* margin-left: 190px;
+    margin-top: 200px; */
+    /* margin: 71px 0px;
+    border: 1px solid red;
+} */
+
+.banner-title{
+    width: 520px;
+    height: 282px;
+    border: 1px solid rgb(0, 255, 0);
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0px;
+    margin: 28px 0px;
+}
+.banner-description{
+    width: 520px;
+    height: 48px;
+    border: 1px solid red;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    padding: 0px;
+    margin: 28px 0px; 
+  
+}
+.btn-primary{
+    padding: 18px 35px;
+    background: rgb(230, 83, 60);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 32px;
+    border: none;
+    margin: 0px 14px;
+
+}
+
+.btn-primary-1{
+    padding: 18px 35px;
+    background-color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 32px;
+    border: 2px solid white;
+    margin: 0px 14px;
+  }
+
+  .banner-image{
+    width: 349px;
+    height: 580px;
+    margin-left: 877px auto;
+    margin-top: 135px auto;
+  }
+
