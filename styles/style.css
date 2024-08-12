@@ -23,7 +23,7 @@ body{
     height: 46px;
     padding: 4px;
     border-radius: 1rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 h3{
@@ -48,18 +48,23 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 50px 160px;
 }
+.nav-container{
+    margin-top: 57px;
 
+}
 .nav-options{
     display: flex;
     justify-content: space-evenly;
     gap: 2rem;
     width: 465px;
     height: 46px;
-    border: 1px solid red;
-    /* border: 1px solid rgba(255, 255, 255, 0.1); */
+    /* border: 1px solid red; */
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 40px;
     align-items: center;
+    cursor: pointer;
 
 }
 p .span{
@@ -74,7 +79,6 @@ p .span{
 header{
     max-width: 1440px auto;
     max-height: 715px auto;
-    border: 1px solid rgb(5, 252, 5);
     background: linear-gradient(180deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.8) 100%);
 
     /* background: linear-gradient(180deg, rgba(0,0,0,.7), rgba(0,0,0,.7), rgba(0,0,0,.7), rgba(0,0,0,1) 100%); */
@@ -84,6 +88,7 @@ header{
 .banner{
     display: flex;
     justify-content: space-around;
+    margin-left: 160px auto;
 }
 
 /* .banner-container{
@@ -100,7 +105,6 @@ header{
 .banner-title{
     width: 520px;
     height: 282px;
-    border: 1px solid rgb(0, 255, 0);
     color: rgb(255, 255, 255);
     font-size: 78px;
     font-weight: 900;
@@ -113,7 +117,6 @@ header{
 .banner-description{
     width: 520px;
     height: 48px;
-    border: 1px solid red;
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-weight: 400;
@@ -148,9 +151,79 @@ header{
   }
 
   .banner-image{
-    width: 349px;
+    width: 350px;
     height: 580px;
     margin-left: 877px auto;
     margin-top: 135px auto;
   }
 
+/* habit style */
+main> section {
+    background-color: black;
+    margin-top: 0px;
+}
+
+.habit-title{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 14px 0px;
+    padding: 0px;
+}
+
+.habit-desc{
+color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: center;
+}
+
+.habit-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.habit-ihp{
+    width: 240px;
+    height: 274px;
+    align-items: center;
+    text-align: center;
+    margin: 0px 40px;
+    padding: 0px;
+}
+
+.habit-img{
+    width: 230px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.habit-types{
+    color: white;
+    width: 230px;
+    height: 22px;
+    padding: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.habit-description{
+    width: 230px;
+height: 36px;
+margin: 6px 0px;
+font-size: 14px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.3px;
+color: rgba(255, 255, 255, 0.5);
+
+
+}
