@@ -5,7 +5,7 @@
 .miami{
     font-family: 'Miami', sans-serif;
     font-style: italic;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 body{
@@ -92,17 +92,6 @@ header{
     margin-left: 160px auto;
 }
 
-/* .banner-container{
-    width: 520px;
-    height: 540px;
-    margin-left: 50px;
-    margin-top: 80px;
-    /* margin-left: 190px;
-    margin-top: 200px; */
-    /* margin: 71px 0px;
-    border: 1px solid red;
-} */
-
 .banner-title{
     width: 520px;
     height: 282px;
@@ -139,6 +128,7 @@ header{
     margin: 0px 14px;
     justify-content: left;
     cursor: pointer;
+    margin-top: 10px;
 
 }
 
@@ -163,7 +153,7 @@ header{
 
 /* habit style */
 
-.habit-title{
+.title{
     color: white;
     font-size: 48px;
     font-weight: 900;
@@ -174,7 +164,7 @@ header{
     padding: 0px;
 }
 
-.habit-desc{
+.description{
 color: rgba(255, 255, 255, 0.5);
 font-size: 14px;
 font-weight: 400;
@@ -229,6 +219,9 @@ text-align: center;
 
 
 /* run style */
+.run{
+    margin-top: 50px;
+}
 
 .run-container{
     display: flex;
@@ -281,4 +274,94 @@ justify-content: left;
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 18px;
+}
+
+/* BMI styles */
+.bmi-container{
+    width: 1440px auto;
+    height: 487px;
+    margin: 88px 0px;
+    background: rgb(34, 34, 34);
+}
+.bmi{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bmi-table{
+    color: white;
+    /* margin-left: 100px; */
+    margin-top: 50px;
+    /* /* justify-content: center; */
+    /* align-items: center; */
+}
+.bmi-title{
+    width: 440px;
+    height: 34px; 
+    justify-content:left;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: white;
+}
+
+
+table{
+    width: 310px;
+    height: 216px;
+    text-align: left;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+td, th {
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.bmi-form{
+    width: 577px;
+    height: 386px;
+    margin-top: 50px;
+}
+.bmi-description{
+    width: 577px;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+#height, #weight, #age{
+    width: 220px;
+    height: 48px;
+    align-items: center;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+}
+#sex{
+    width: 282px;
+    height: 75px;
+    align-items: center;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+#select-af{
+    width: 570px;
+    height: 75px;
+    align-items: center;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+
 }
